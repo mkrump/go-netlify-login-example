@@ -1,0 +1,9 @@
+[build]
+publish = "build"
+functions = "functions"
+command = "make build"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
