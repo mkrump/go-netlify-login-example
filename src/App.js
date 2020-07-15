@@ -60,7 +60,7 @@ const PrivateRoute = (props) => {
 function Login() {
   return (
     <div>
-      Need to be logged in to access this route <Link to={"/"}>Home</Link>
+      Must be logged in to access this route <Link to={"/"}>Home</Link>
     </div>
   );
 }
